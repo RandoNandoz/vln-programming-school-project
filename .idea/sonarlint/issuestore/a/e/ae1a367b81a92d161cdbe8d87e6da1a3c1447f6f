@@ -1,0 +1,13 @@
+
+‰
+java:S1319"sThe type of the "teachers" object should be an interface such as "List" rather than the implementation "ArrayList".(ç„¡Ú
+’
+java:S1319A"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(«Ü›Ãıÿÿÿÿ8³Èøî.
+‰
+java:S1319"sThe type of the "students" object should be an interface such as "List" rather than the implementation "ArrayList".(ç„¡Ú
+’
+java:S13199"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¹èÁ‰ùÿÿÿÿ8³Èøî.
+’
+java:S1319="pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(…ó¨ûøÿÿÿÿ8³Èøî.
+ˆ
+java:S1319"rThe type of the "courses" object should be an interface such as "List" rather than the implementation "ArrayList".(ç„¡Ú

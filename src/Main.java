@@ -7,7 +7,7 @@ public class Main {
         ArrayList<Teacher> teachers = new ArrayList<>();
 
         ArrayList<String> courses = new ArrayList<>();
-        School mySchool = new School(teachers, students, courses, "Killarney Secondary", "English", "Secondary");
+        School mySchool = new School(teachers, students, courses, "Hypothetical Secondary", "English", "Secondary");
         // Let's hire some teachers!
         mySchool.addTeacher(new Teacher("Evangeline", "Hess", "English"));
         mySchool.addTeacher(new Teacher(" Abdirahman", "Keeling", "Science"));
@@ -40,7 +40,7 @@ public class Main {
         // Let's check attendance this morning.
         System.out.println(mySchool.getStudents());
         // It seems like David has passed away. Time to remove him.
-        mySchool.removeStudentById(mySchool.getStudentUUID("David", "Brown", 10));
+        mySchool.removeStudentById(mySchool.getStudentUUIDByNameAndGrade("David", "Brown", 10));
         System.out.println(mySchool.getStudents());
     }
 }
